@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(44, 65, 83);
+    background-color: rgb(183, 242, 242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 100px;
+
+}
+
+
+#msg {
+    color: rgb(44, 65, 83);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 80px;
+    
+}
+
+body {
+    background-color: rgb(252, 212, 225);
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vmin;
+
+
+
+}
+
+.game {
+    /* height: 60vmin; */
+    width: 59.4vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.7vmin;
+    background-color: rgb(50, 50, 50);
+    border: none;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    background-color: rgb(252, 212, 225);
+    font-size: 15vmin;
+    color: rgb(0, 128, 128);
+
+}
+
+.reset {
+    height: 5vmin;
+    width: 10vmin;
+    color: rgb(44, 65, 83);
+    background-color: rgb(183, 242, 242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+}
+
+#new-btn {
+    margin-top: 10px;
+    height: 5vmin;
+    width: 15vmin;
+    color: rgb(44, 65, 83);
+    background-color: rgb(183, 242, 242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    border: none;
+    border-radius: 10px;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4 rem;
+}
+
+.hide {
+    display: none;
+}
+
